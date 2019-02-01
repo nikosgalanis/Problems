@@ -11,6 +11,6 @@ solve f i a j b k c =
         else solve f i a j b k n + solve f i a j b (n+1) c
       else solve f i a j m k c + solve f i a (m+1) b k c
     else solve f i o j b k c + solve f (o+1) a j b k c
-  where o = (1+a) `div` 2
-        m = (1+b) `div` 2
-        n = (1+c) `div` 2
+  where o = (i+a) `div` 2
+        m = (j+b) `div` 2
+        n = (k+c) `div` 2
