@@ -1,4 +1,37 @@
-# HaskellProblems
+# Problems
+
+### Prolog Problems
+
+equation_solver.pl
+
+The user gives two lists with elements variables or consts, and the function solves the equation
+ex: > solvelists[[1,x,z],[2,y,y],L]
+      > L = [(y,2),(x,1),(z,2)]
+
+-------------------------------------------------------------------------------------------------
+limited_permutations.pl
+
+
+Lets suppose a list with numbers from 1 to n (without doublicates, and not necessarily in order). 
+Initially, we do not know that list. What we know, is 5 lists occurred from it, with the following pattern:
+The first lists occurs from the unknown list if we move one of its elements in another position. 
+The second one occurs with the movement of a different number in another position, etc. 
+So if we give these 5 lists into solvelists, then the function returns the unknown list.
+
+ex: > findlist([[1,2,5,3,4],[1,5,3,4,2],[4,2,1,5,3],[2,3,1,5,4],[2,1,3,4,5]],M)
+     > M=[2,1,5,3,4].
+
+This algorithm, uses pseudo-permutations, in order to have a O(n^3) complexity, instead of O(n!)
+
+-------------------------------------------------------------------------------------------------
+In this path, you will also find the pdf with the statement of the other implementated problems
+
+-------------------------------------------------------------------------------------------------
+All functions are interputed with swipl
+
+
+
+### Haskell Problems
 -------------------------------------------------------------------------------------------------------------------------------
 Ugly Numbers: A number is called ugly, if its only divisors are 2, 3 or 5, so the number is written as 2^n * 3^m * 5^k,
               where n,m,k:integers > 0
