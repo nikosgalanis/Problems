@@ -30,7 +30,7 @@ This algorithm, uses pseudo-permutations, in order to have a O(n^3) complexity, 
 In this path, you will also find the pdf with the statement of the other implementated problems
 
 -------------------------------------------------------------------------------------------------
-All functions are interputed with swipl
+All functions are interpreted with swipl
 
 
 
