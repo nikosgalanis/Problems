@@ -28,7 +28,7 @@ ex:
      ?- findlist([[1,2,5,3,4],[1,5,3,4,2],[4,2,1,5,3],[2,3,1,5,4],[2,1,3,4,5]],M)
      > M=[2,1,5,3,4].
 ```
-This algorithm, uses pseudo-permutations, in order to have a $$O(n^3)$$ complexity, instead of $$O(n!)$$
+This algorithm, uses pseudo-permutations, in order to have a $O(n^3)$ complexity, instead of $O(n!)$
 
 ---
 In this path, you will also find the pdf with the statement of the other implementated problems
